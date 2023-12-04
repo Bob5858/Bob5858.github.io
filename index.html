@@ -1,7 +1,23 @@
-<html>
-<body>
-  <div class="content"> Біба Богдан ІК-201
-  </div>
-  <footer> Біба Богдан ІК-201 КНЕУ </footer>
-</body>
-</html>
+<article>
+  <h1>Who???</h1>
+  <ol>
+    <li>Biba Bohdan IK-201 </li>
+  </ol>
+  <footer>
+    <p>© LAb5 </p>
+  </footer>
+</article>
+
+article {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
